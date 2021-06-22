@@ -3,11 +3,11 @@
   <title>Mr.xのblog</title>
   
   <subtitle>分享生活</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://xytdream.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="http://xytdream.github.io/"/>
   <updated>2021-06-22T03:15:33.875Z</updated>
-  <id>http://example.com/</id>
+  <id>http://xytdream.github.io/</id>
   
   <author>
     <name>Mr.x</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>我的第一篇文章</title>
-    <link href="http://example.com/2021/06/22/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://example.com/2021/06/22/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <link href="http://xytdream.github.io/2021/06/22/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://xytdream.github.io/2021/06/22/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
     <published>2021-06-22T03:14:55.000Z</published>
     <updated>2021-06-22T03:15:33.875Z</updated>
     
@@ -31,8 +31,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2021/06/22/hello-world/"/>
-    <id>http://example.com/2021/06/22/hello-world/</id>
+    <link href="http://xytdream.github.io/2021/06/22/hello-world/"/>
+    <id>http://xytdream.github.io/2021/06/22/hello-world/</id>
     <published>2021-06-22T03:11:50.544Z</published>
     <updated>2021-06-22T03:11:50.544Z</updated>
     
