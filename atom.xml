@@ -6,7 +6,7 @@
   <link href="http://xytdream.github.io/atom.xml" rel="self"/>
   
   <link href="http://xytdream.github.io/"/>
-  <updated>2021-06-22T03:15:33.875Z</updated>
+  <updated>2021-06-23T07:13:37.740Z</updated>
   <id>http://xytdream.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>testArticle</title>
+    <link href="http://xytdream.github.io/2021/06/23/testArticle/"/>
+    <id>http://xytdream.github.io/2021/06/23/testArticle/</id>
+    <published>2021-06-23T06:30:00.000Z</published>
+    <updated>2021-06-23T07:13:37.740Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="这是一篇测试文章"><a href="#这是一篇测试文章" class="headerlink" title="这是一篇测试文章"></a>这是一篇测试文章</h3><blockquote><p>测试标签和分类</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;这是一篇测试文章&quot;&gt;&lt;a href=&quot;#这是一篇测试文章&quot; class=&quot;headerlink&quot; title=&quot;这是一篇测试文章&quot;&gt;&lt;/a&gt;这是一篇测试文章&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;测试标签和分类&lt;/p&gt;
+&lt;/blockquote&gt;
+</summary>
+      
+    
+    
+    
+    <category term="前端" scheme="http://xytdream.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="分类1" scheme="http://xytdream.github.io/categories/%E5%89%8D%E7%AB%AF/%E5%88%86%E7%B1%BB1/"/>
+    
+    
+    <category term="前端" scheme="http://xytdream.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="test" scheme="http://xytdream.github.io/tags/test/"/>
+    
+  </entry>
   
   <entry>
     <title>我的第一篇文章</title>
