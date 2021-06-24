@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xytdream.github.io/2021/06/22/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
+    
+    <lastmod>2021-06-24</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xytdream.github.io/2021/06/22/hello-world/</loc>
+    
+    <lastmod>2021-06-24</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://xytdream.github.io/2021/06/23/testArticle/</loc>
     
-    <lastmod>2021-06-23</lastmod>
+    <lastmod>2021-06-24</lastmod>
     
   </url>
   
@@ -33,20 +47,6 @@
     <loc>http://xytdream.github.io/about/index.html</loc>
     
     <lastmod>2021-06-23</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xytdream.github.io/2021/06/22/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
-    
-    <lastmod>2021-06-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xytdream.github.io/2021/06/22/hello-world/</loc>
-    
-    <lastmod>2021-06-22</lastmod>
     
   </url>
   
