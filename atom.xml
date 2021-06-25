@@ -1,70 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Mr.xのblog</title>
+  <title>Mr.Xのblog</title>
   
   
   <link href="http://xytdream.github.io/atom.xml" rel="self"/>
   
   <link href="http://xytdream.github.io/"/>
-  <updated>2021-06-24T08:48:04.030Z</updated>
+  <updated>2021-06-25T09:11:44.622Z</updated>
   <id>http://xytdream.github.io/</id>
   
   <author>
-    <name>Mr.x</name>
+    <name>Mr.X</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>testArticle</title>
-    <link href="http://xytdream.github.io/2021/06/23/testArticle/"/>
-    <id>http://xytdream.github.io/2021/06/23/testArticle/</id>
-    <published>2021-06-23T06:30:00.000Z</published>
-    <updated>2021-06-24T08:48:04.030Z</updated>
+    <title>我的微信公众号</title>
+    <link href="http://xytdream.github.io/2021/06/25/%E6%88%91%E7%9A%84%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7/"/>
+    <id>http://xytdream.github.io/2021/06/25/%E6%88%91%E7%9A%84%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7/</id>
+    <published>2021-06-25T09:06:42.732Z</published>
+    <updated>2021-06-25T09:11:44.622Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="这是一篇测试文章"><a href="#这是一篇测试文章" class="headerlink" title="这是一篇测试文章"></a>这是一篇测试文章</h3><blockquote><p>测试标签和分类</p></blockquote>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;这是一篇测试文章&quot;&gt;&lt;a href=&quot;#这是一篇测试文章&quot; class=&quot;headerlink&quot; title=&quot;这是一篇测试文章&quot;&gt;&lt;/a&gt;这是一篇测试文章&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;测试标签和分类&lt;/p&gt;
-&lt;/blockquote&gt;
-</summary>
-      
-    
-    
-    
-    <category term="前端" scheme="http://xytdream.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="分类1" scheme="http://xytdream.github.io/categories/%E5%89%8D%E7%AB%AF/%E5%88%86%E7%B1%BB1/"/>
-    
-    
-    <category term="前端" scheme="http://xytdream.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="test" scheme="http://xytdream.github.io/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我的第一篇文章</title>
-    <link href="http://xytdream.github.io/2021/06/22/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://xytdream.github.io/2021/06/22/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
-    <published>2021-06-22T03:14:55.000Z</published>
-    <updated>2021-06-25T06:49:06.901Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="我的第一篇文章"><a href="#我的第一篇文章" class="headerlink" title="我的第一篇文章"></a>我的第一篇文章</h3><p><img src="" alt="/images/rm.png"></p><p><img src="" alt="https://picsum.photos/1080/720"></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="欢迎大家关注我的微信公众号"><a href="#欢迎大家关注我的微信公众号" class="headerlink" title="欢迎大家关注我的微信公众号"></a>欢迎大家关注我的微信公众号</h3><p><img src="" alt="/images/logo/wechat.jpg"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h3 id=&quot;我的第一篇文章&quot;&gt;&lt;a href=&quot;#我的第一篇文章&quot; class=&quot;headerlink&quot; title=&quot;我的第一篇文章&quot;&gt;&lt;/a&gt;我的第一篇文章&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;/images/rm.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=</summary>
+    <summary type="html">&lt;h3 id=&quot;欢迎大家关注我的微信公众号&quot;&gt;&lt;a href=&quot;#欢迎大家关注我的微信公众号&quot; class=&quot;headerlink&quot; title=&quot;欢迎大家关注我的微信公众号&quot;&gt;&lt;/a&gt;欢迎大家关注我的微信公众号&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;/images/l</summary>
       
     
     
     
+    <category term="社交" scheme="http://xytdream.github.io/categories/%E7%A4%BE%E4%BA%A4/"/>
+    
+    
+    <category term="社交" scheme="http://xytdream.github.io/tags/%E7%A4%BE%E4%BA%A4/"/>
     
   </entry>
   
