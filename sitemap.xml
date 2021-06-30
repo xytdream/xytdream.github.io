@@ -2,14 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://xytdream.github.io/2021/06/25/%E6%88%91%E7%9A%84%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7/</loc>
+    <loc>http://xytdream.github.io/2021/06/30/git-command/</loc>
     
-    <lastmod>2021-06-25</lastmod>
+    <lastmod>2021-06-30</lastmod>
     
   </url>
   
   <url>
     <loc>http://xytdream.github.io/2021/06/22/hello-world/</loc>
+    
+    <lastmod>2021-06-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xytdream.github.io/2021/06/25/%E6%88%91%E7%9A%84%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7/</loc>
     
     <lastmod>2021-06-25</lastmod>
     
@@ -46,15 +53,29 @@
 
   <url>
     <loc>http://xytdream.github.io/</loc>
-    <lastmod>2021-06-25</lastmod>
+    <lastmod>2021-06-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>http://xytdream.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2021-06-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://xytdream.github.io/tags/git/</loc>
+    <lastmod>2021-06-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://xytdream.github.io/tags/%E7%A4%BE%E4%BA%A4/</loc>
-    <lastmod>2021-06-25</lastmod>
+    <lastmod>2021-06-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -62,8 +83,15 @@
 
   
   <url>
+    <loc>http://xytdream.github.io/categories/git/</loc>
+    <lastmod>2021-06-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://xytdream.github.io/categories/%E7%A4%BE%E4%BA%A4/</loc>
-    <lastmod>2021-06-25</lastmod>
+    <lastmod>2021-06-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

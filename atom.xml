@@ -6,7 +6,7 @@
   <link href="http://xytdream.github.io/atom.xml" rel="self"/>
   
   <link href="http://xytdream.github.io/"/>
-  <updated>2021-06-25T10:37:13.103Z</updated>
+  <updated>2021-06-30T08:23:56.742Z</updated>
   <id>http://xytdream.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git常用指令以及指令大全</title>
+    <link href="http://xytdream.github.io/2021/06/30/git-command/"/>
+    <id>http://xytdream.github.io/2021/06/30/git-command/</id>
+    <published>2021-06-30T02:01:19.456Z</published>
+    <updated>2021-06-30T08:23:56.742Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Git常用指令介绍以及指令大全"><a href="#Git常用指令介绍以及指令大全" class="headerlink" title="Git常用指令介绍以及指令大全"></a>Git常用指令介绍以及指令大全</h3><br><ul><li>git clone <blockquote><p>克隆版本库，将远程仓库代码克隆到本地</p><ul><li>git clone [url]　　　url是远程仓库的git地址</li></ul></blockquote></li></ul><br><ul><li>git add<blockquote><p>将工作区代码改动添加至缓存区</p><ul><li>git add [file] 　　　指定改动文件添加到缓存区</li><li>git add . 　　　　　全部改动文件添加到缓存区</li><li>git add [dir]　　　　指定目录及其子目录添加至缓存区</li></ul></blockquote></li></ul><br><ul><li>git commit<blockquote><p>将缓存区代码推至本地仓库</p><ul><li>git commit -m”message”　提交暂存区至仓库区，message为此次提交的信息，需开发者根据本次改动进行手动输入</li><li>git commit [file] -m”message”　　指定文件提交</li><li>git commit -a -m”message”　　提交工作区自上次commit后有变动的所有代码文件，等价于“ git add . ”+“ git commit -m”message” ” </li></ul></blockquote></li></ul><br><ul><li>git push<blockquote><p>将本地仓库代码推送至远程仓库</p><ul><li>git push　　　　推送当前分支至对应的远程仓库</li><li>git push origin [branch_name]　　　指定远程仓库名和分支名</li><li>git push origin –delete [branch_name]　　　删除远程分支</li></ul></blockquote></li></ul><br><ul><li>git pull<blockquote><p>从远程仓库拉取代码到本地仓库</p><ul><li>git pull 拉取当前分支对应的远程分支的代码</li><li>git pull –rebase　　以rebase合并代码的方式拉取远程代码岛本地</li></ul><p>git pull 和 git pull –rebase 的区别</p><ul><li>git pull 拉取代码时，相当于执行了 git fetch + git merge FETCH_HEAD</li><li>git pull –rebase 拉取代码时，相当于执行了 git fetch + git rebase FETCH_HEAD</li><li>git rebase 和 git merge 的区别请<a href="https://juejin.cn/post/6844903951679094798">点击查看</a></li></ul></blockquote></li></ul>]]></content>
+    
+    
+    <summary type="html">git的一些常用指令介绍</summary>
+    
+    
+    
+    <category term="git" scheme="http://xytdream.github.io/categories/git/"/>
+    
+    
+    <category term="前端" scheme="http://xytdream.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="git" scheme="http://xytdream.github.io/tags/git/"/>
+    
+  </entry>
   
   <entry>
     <title>我的微信公众号</title>
@@ -45,7 +68,7 @@
     <link href="http://xytdream.github.io/2021/06/22/hello-world/"/>
     <id>http://xytdream.github.io/2021/06/22/hello-world/</id>
     <published>2021-06-22T03:11:50.544Z</published>
-    <updated>2021-06-25T10:37:10.051Z</updated>
+    <updated>2021-06-30T02:14:35.871Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
