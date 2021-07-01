@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xytdream.github.io/2020/02/22/npm-image-source/</loc>
+    
+    <lastmod>2021-07-01</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://xytdream.github.io/2021/06/30/git-command/</loc>
     
     <lastmod>2021-06-30</lastmod>
@@ -53,7 +60,7 @@
 
   <url>
     <loc>http://xytdream.github.io/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -61,21 +68,28 @@
   
   <url>
     <loc>http://xytdream.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://xytdream.github.io/tags/git/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://xytdream.github.io/tags/npm/</loc>
+    <lastmod>2021-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://xytdream.github.io/tags/%E7%A4%BE%E4%BA%A4/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -84,14 +98,21 @@
   
   <url>
     <loc>http://xytdream.github.io/categories/git/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://xytdream.github.io/categories/npm/</loc>
+    <lastmod>2021-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://xytdream.github.io/categories/%E7%A4%BE%E4%BA%A4/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
