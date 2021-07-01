@@ -84,6 +84,33 @@
   </entry>
   
   <entry>
+    <title>锚点介绍及锚点平滑跳转效果的实现</title>
+    <link href="http://xytdream.github.io/2020/03/23/anchor-point/"/>
+    <id>http://xytdream.github.io/2020/03/23/anchor-point/</id>
+    <published>2020-03-22T18:53:00.000Z</published>
+    <updated>2021-07-01T11:50:53.311Z</updated>
+    
+    <content type="html"><![CDATA[<p>锚点，是网页中超链接的一种，简单来说就是一种页面内定位器，点击锚点，可以让页面快速定位到某个点。其在高度较高的网页中比较常见，例如百度百科的页面。</p><p>据我所知，锚点有两种实现方法。一种是a标点+name属性，使用name属性只能针对a标签来定位，而对div等其他标签就不能起到定位作用。另一种是a标签+id属性，使用id属性对所有标签都有效。</p><p>第一种，a标签+name属性</p><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&#x27;#test&#x27;</span>&gt;</span>点击跳转<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">name</span>=<span class="string">&#x27;test&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure><p>第二种，a标签+id属性</p><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&#x27;#test&#x27;</span>&gt;</span>点击跳转<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">id</span>=<span class="string">&#x27;test&#x27;</span>&gt;</span>测试标题<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br></pre></td></tr></table></figure><p>而原生的跳转十分僵硬，页面会直接定为到要跳转的点，一瞬间跳转过去，看着很生硬。为了让跳转过程更舒服，我们可以使用JQuery来给跳转添加滑动效果，在页面引入JQuery的js文件后，在自己的js文件中写入下面的代码并引入页面中即可实现。</p><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">$(<span class="string">&quot;a&quot;</span>).click(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line"></span><br><span class="line">    $(<span class="string">&quot;html, body&quot;</span>).animate(&#123;<span class="attr">scrollTop</span>: $($(<span class="built_in">this</span>).attr(<span class="string">&quot;href&quot;</span>)).offset().top -<span class="number">20</span>+ <span class="string">&quot;px&quot;</span>&#125;, <span class="number">500</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;<span class="comment">//不要这句会有点卡顿</span></span><br><span class="line"></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><p>其中offset() 方法返回或设置匹配元素的left或者top的页面偏移量（getBoundingClientRect()放回当前窗口的偏移量），具体用法可以到W3School或菜鸟教程看看;</p><p>$(this).attr(“href”)是获取你所点击的a标签里面的href属性值。</p><p>$($(this).attr(“href”)).offset().top 是获取id等于$(this).attr(“href”)块所在的位置，比如点击<code>&lt;a href=&quot;test&quot;&gt;</code>时，就会获取到id=’test’的块的位置，这里的-20只是让滑动到的块下移20px，使其更加靠近屏幕中间，让a标签跟加好用。</p><p>scrollTop是滑动动作，比如scrollTop: 50px 就是滑动到html距离顶部的50px高处。</p><p>animate是动作函数，提供scrollTop等动作，500则是指animate所提供的动作在500毫秒内完成，这里就是指滑动0.5秒。</p><p>$(“a”).click(function (){ }）指a标签被点击是触发{ } 内的事件，所以也可以把a标签改成自定义标签，然后就可以实现一个页面既有普通a标签，也有可以滑动的标签。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;锚点，是网页中超链接的一种，简单来说就是一种页面内定位器，点击锚点，可以让页面快速定位到某个点。其在高度较高的网页中比较常见，例如百度百科的页面。&lt;/p&gt;
+&lt;p&gt;据我所知，锚点有两种实现方法。一种是a标点+name属性，使用name属性只能针对a标签来定位，而对div等其他</summary>
+      
+    
+    
+    
+    <category term="前端" scheme="http://xytdream.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="html" scheme="http://xytdream.github.io/categories/%E5%89%8D%E7%AB%AF/html/"/>
+    
+    
+    <category term="前端" scheme="http://xytdream.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>npm指向国内淘宝镜像源以及还原为默认镜像源</title>
     <link href="http://xytdream.github.io/2020/02/22/npm-image-source/"/>
     <id>http://xytdream.github.io/2020/02/22/npm-image-source/</id>
