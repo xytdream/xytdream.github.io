@@ -6,7 +6,7 @@
   <link href="http://xytdream.github.io/atom.xml" rel="self"/>
   
   <link href="http://xytdream.github.io/"/>
-  <updated>2021-06-30T09:44:15.394Z</updated>
+  <updated>2021-07-02T07:20:18.104Z</updated>
   <id>http://xytdream.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>7月摘抄美文(2021)</title>
+    <link href="http://xytdream.github.io/2021/07/02/7-jottings/"/>
+    <id>http://xytdream.github.io/2021/07/02/7-jottings/</id>
+    <published>2021-07-02T07:01:45.000Z</published>
+    <updated>2021-07-02T07:20:18.104Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>07.02 &lt;&lt;最好的态度&gt;&gt;<blockquote><p>在喜欢你的人那里，去热爱生活；在不喜欢你的人那里，去看清世界，就这么简单。</p></blockquote></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;07.02 &amp;lt;&amp;lt;最好的态度&amp;gt;&amp;gt;&lt;blockquote&gt;
+&lt;p&gt;在喜欢你的人那里，去热爱生活；在不喜欢你的人那里，去看清世界，就这么简单。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</summary>
+      
+    
+    
+    
+    <category term="随笔" scheme="http://xytdream.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="随笔" scheme="http://xytdream.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>Git常用指令总结</title>
